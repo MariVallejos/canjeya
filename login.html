@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANJEYA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+     <!-- Favicon -->
+     <link href="./img/imgfavicon.png" rel="icon">
+
+
+    <style>
+        body {
+            background-color: #f8f9fa; 
+        }
+
+        .banner_main {
+            padding: 50px 0;
+        }
+
+        .containerText {
+            color: #fff;
+            padding: 20px;
+        }
+
+        .main_form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .contactus {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .send_btn {
+            display: block;
+            width: 100%;
+         
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .register {
+            margin-top: 15px;
+        }
+
+        /* Media Query para pantallas más pequeñas (tabletas y móviles) */
+        @media screen and (max-width: 767px) {
+            .containerText {
+                display: none; /* Oculta la sección de texto en pantallas más pequeñas */
+            }
+
+            .col-md-6 {
+                width: 100%; /* Asegura que el formulario ocupe todo el ancho en pantallas pequeñas */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="banner_main">
+        <div class="container">
+            <div class="row d_flex">
+                <div class="col-md-6 containerText">
+                    <div class="text-bg">
+                        <h1>Iniciar Sesión</h1>
+                        <p>¡Inicia sesión y comienza a participar en esta experiencia eco-amigable!</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form id="request" class="main_form">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input class="contactus" placeholder="Correo Electrónico" type="email" name="Name">
+                            </div>
+                            <div class="col-md-12">
+                                <input class="contactus" placeholder=" Contraseña" type="password" name="Email">
+                            </div>
+                            <div class="col-sm-12">
+                                <a href="./index.html" class="send_btn">
+                                    <span class="btb-send">Iniciar Sesión</span>
+                                </a>
+                                <p class="text-center register">¿No tienes una cuenta? <a href="./register.html">Register</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
